@@ -1,6 +1,5 @@
 import 'package:chat_app/home.dart';
 import 'package:chat_app/login_page.dart';
-import 'package:chat_app/models/register.dart';
 import 'package:flutter/material.dart';
 
 class RegisterPage extends StatefulWidget {
@@ -11,8 +10,6 @@ class RegisterPage extends StatefulWidget {
 }
 
 class _RegisterPageState extends State<RegisterPage> {
-  final RegisterInfo _register =
-      RegisterInfo(registerName: '', registerPass: '');
   final TextEditingController _regisName = TextEditingController();
   final TextEditingController _regisPass = TextEditingController();
   @override
